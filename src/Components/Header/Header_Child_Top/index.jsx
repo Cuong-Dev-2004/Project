@@ -1,16 +1,39 @@
-import styles from './HeaderChild_Top.module.scss'
+import { Link, useNavigate } from 'react-router-dom';
+import styles from './HeaderChild_Top.module.scss';
 
 function HeaderChildTop() {
-    console.log("HeaderChildTop");
+    const navigate = useNavigate();
+
+    const usersRaw = localStorage.getItem("users");
+    const users = usersRaw ? JSON.parse(usersRaw) : null;
+    const Account = users && users.length > 0 ? users[0].username : null;
+
+    const handleLogout = () => {
+        localStorage.removeItem("users");
+    };
+
     return (
         <div className={styles.headerChildTop}>
             <ul className={styles.headerChildTop_left}>
-                <li><a href="">Hotline: 0909090909</a></li>
-                <li><a href="">Địa Chỉ: 136 Tôn Đức Thắng, Hà Nội</a></li>
+                <li><a href="#">Cửa hàng</a></li>
+                <li><a href="#">Liên hệ: 0908598850</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Hỗ trợ</a></li>
             </ul>
             <ul className={styles.headerChildTop_right}>
-                <li><i className='bx bx-user'></i><a href="">Admin (ad:08)</a></li>
-                <li><i className='bx bx-exit'></i><a href=""> ĐăngXuất</a></li>
+                {Account ? (
+                    <>
+                        <li><i className='bx bx-user'></i><span>{Account}</span></li>
+                        <li onClick={handleLogout} style={{ cursor: 'pointer' }}>
+                            <i className='bx bx-exit'></i> Thoát Ra
+                        </li>
+                    </>
+                ) : (
+                    <>
+                        <Link to='/SignIn'><li><i className='bx bx-user'></i> Đăng Nhập</li></Link>
+                        <Link to='/signup'><li><i className='bx bx-log-in'></i> Đăng Ký</li></Link>
+                    </>
+                )}
             </ul>
         </div>
     );

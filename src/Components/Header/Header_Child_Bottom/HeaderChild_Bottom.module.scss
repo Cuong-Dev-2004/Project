@@ -1,12 +1,12 @@
 .headerChildBottom_container {
-    background-color: green;
+    background-color: #A08161;
     display: flex;
     justify-content: space-between;
 
     .headerChildBottom_left {
         display: flex;
         align-items: center;
-        background-color: green;
+        background-color: #A08161;
         color: white;
         width: 70%;
         padding-left: 55px;
@@ -53,7 +53,8 @@
                 padding: 10px 20px;
 
                 &:hover {
-                    background-color: aqua;
+                    background-color: #b99a7b;
+                    color: black;
                 }
             }
         }

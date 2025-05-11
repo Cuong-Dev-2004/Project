@@ -1,14 +1,15 @@
-import { memo } from 'react';
+import { memo, useState } from 'react';
 import styles from './HeaderChild_Center.module.scss'
 
 function HeaderChildCenter() {
+    const [StringInput, setStringInput] = useState('');
     console.log("HeaderChildCenter");
     return (
         <div className={styles.headerChildCenter}>
             <div className={styles.headerChildCenter_HeaderMain}>
                 <div className={styles.headerChildCenter_left}>
                     <ul>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4A-YQei7R6njR0RSnOcd_KgH6Dkb3oXmuyVCiitMwcAeuTcyX3KLFmZ6sh4TlVugPvB0&usqp=CAU" alt="" />
+                        <img src="http://www.langgom.vn/upload/hinhanh/logo-langgom-1632.png" alt="" />
                     </ul>
                 </div>
                 <div className={styles.headerChildCenter_Center}>
@@ -40,12 +41,7 @@ function HeaderChildCenter() {
 
                 <div className={styles.headerChildCenter_right}>
                     <ul >
-                        <p>
-                            <i class='bx bx-shopping-bag'></i>
-                            <a href="/">
-                                Khóa Học Của tôi
-                            </a>
-                        </p>
+                        <li><input type="text" placeholder='Tìm kiếm Sản Phẩm' value={StringInput} onChange={(e) => { setStringInput(e.target.value) }} /></li>
                     </ul>
                 </div>
 

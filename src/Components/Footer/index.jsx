@@ -5,9 +5,9 @@ function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.imga}>
-                <li>
+                {/* <li>
                     <img src="https://anhngumb.com/wp-content/uploads/2023/02/LogoMrBien-_banner-light.png" alt="" />
-                </li>
+                </li> */}
             </div>
             <div className={styles.box_footer}>
 
