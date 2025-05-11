@@ -1,0 +1,29 @@
+.Wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    ._Infomation_Left,
+    .select {
+        padding: 10px;
+        border: solid 1px transparent;
+        border-radius: 30px;
+    }
+
+    ._Infomation_Left {
+        background-color: green;
+        color: white;
+        font-weight: 700;
+
+        &:hover {
+            background-color: rgb(2, 141, 2);
+        }
+    }
+
+    ._Infomation_Right {
+        .select {
+            padding: 10px 30px;
+            border: solid 1px gray;
+        }
+    }
+}
