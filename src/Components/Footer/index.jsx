@@ -40,7 +40,7 @@ const footerData = {
 };
 function Footer() {
     return (
-        <footer className="footer">
+        <footer className={styles.footer}>
             <div className={styles.footercontainer} >
                 {/* Company Info */}
                 <div className={styles.footersection}>
