@@ -8,7 +8,7 @@ import './layout.scss';
 function Layout() {
     const location = useLocation();
 
-    const hideSidebar = location.pathname === '/products' || location.pathname === '/SignIn' || location.pathname === '/signup';
+    const hideSidebar = location.pathname === '/products' || location.pathname === '/SignIn' || location.pathname === '/signup' || location.pathname === '/DangKyKhoaHoc' || location.pathname === "/TraiNghiem";
 
     return (
         <div className="main-layout">

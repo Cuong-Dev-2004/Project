@@ -13,9 +13,14 @@ function HeaderChildBottom() {
                             <li className={styles.item_Menu_Left}>Trang chủ</li>
                         </Link>
                         <li to="/" className={styles.item_Menu_Left}>Sản phẩm</li>
-                        <li to="/" className={styles.item_Menu_Left}>Khóa Học </li>
-                        <li to="/" className={styles.item_Menu_Left}>Cá Nhân Hóa </li>
-                        <li to="/" className={styles.item_Menu_Left}>Trải Nghiệm </li>
+                        <Link to="/DangKyKhoaHoc">
+                            <li to="/" className={styles.item_Menu_Left}>Khóa Học </li>
+                        </Link>
+
+                        <li to="/" className={styles.item_Menu_Left}><a href="https://www.figma.com/board/WPu4e25Us5hPMgPlGZXHfi/Untitled?node-id=0-1&p=f&t=S6XYm8uj9ojGtexo-0" target="_blank">Cá Nhân Hóa </a></li>
+                        <Link to="/TraiNghiem">
+                            <li to="/" className={styles.item_Menu_Left}>Trải Nghiệm</li></Link>
+
                         <li to="/" className={styles.item_Menu_Left}>Liên Hệ </li>
                     </ul>
                 </div>

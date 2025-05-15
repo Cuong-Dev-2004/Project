@@ -48,6 +48,31 @@ function Product() {
                     </div>
                 </div>
             </div>
+            <div className={Style.wrapper3}>
+
+                <ul className={Style.list}>
+                    <p className={Style.item}>Người Bán Tiêu Biểu</p>
+                    <li>-Sản phẩm: Gốm sứ Bát Tràng Authentic</li>
+                    <li>-Địa chỉ: Xóm 1, Bát Tràng, Gia Lâm, Hà Nội </li>
+                </ul>
+                <ul className={Style.list}>
+                    <p className={Style.item}>
+                        Giới thiệu sản phẩm
+                    </p>
+                    <li>
+                        -Bình gốm thủ công với hoa văn truyền thống, men màu ngà, được chế tác theo phong cách nghệ thuật dân gian Việt Nam, thường thấy tại làng gốm Bát Tràng. Hoa văn trang trí gồm hoa cúc, lá, và các họa tiết đối xứng, tạo vẻ cổ điển và trang nhã.
+                    </li>
+                </ul>
+                <ul className={Style.list}>
+                    <p className={Style.item}>Quy trình chế tác</p>
+                    <li>1.Chọn đất sét trắng cao cấp</li>
+                    <li>2.Tạo hình bằng tay hoặc bàn xoay</li>
+                    <li>3.Chạm khắc hoa văn</li>
+                    <li>4.Phơi khô tự nhiên</li>
+                    <li>5.
+                        Tráng men và nung ở nhiệt độ ~1.200°C</li>
+                </ul>
+            </div>
         </div>
     );
 }

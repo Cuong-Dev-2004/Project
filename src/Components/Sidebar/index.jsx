@@ -8,15 +8,15 @@ const SlideImage = [
     },
     {
         id: 2,
-        img: 'https://i2.ex-cdn.com/crystalbay.com/files/content/2024/10/14/lang-gom-go-binh-duc-kham-pha-lang-gom-cham-co-o-binh-thuan-4-1132.jpg',
+        img: 'https://i.pinimg.com/736x/9b/2a/96/9b2a96d2b80037c1f26b3af769f9d24a.jpg',
     },
     {
         id: 3,
-        img: 'http://www.langgom.vn/upload/hinhanh/117120910798421.jpg',
+        img: 'https://images.pexels.com/photos/22823/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
     {
         id: 4,
-        img: 'http://www.langgom.vn/thumb.php?src=upload/product/7-8525.jpg&w=400&h=400&zc=2&q=80',
+        img: 'https://gomsuhoanggia.vn/wp-content/uploads/2024/03/Hinh-anh-nha-co-Van-Van.jpg',
     },
 ];
 

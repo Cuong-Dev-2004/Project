@@ -5,7 +5,8 @@
 }
 
 .TitleProduce {
-    width: 80%;
+    padding: 0px 20px;
+    width: 100%;
     display: flex;
 
     justify-content: space-evenly;
@@ -22,11 +23,21 @@
 
     text-align: left;
     font-size: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
+
+    .primry {
+        font-size: 25px;
+        color: red;
+        font-weight: 800;
+    }
+
+    .text {
+        font-size: 30px;
+    }
 
     h2 {
 
-        color: red;
+        color: black;
         font-weight: 700;
     }
 
@@ -47,7 +58,10 @@
 
 .primry {}
 
-.content {}
+.content {
+    text-align: justify;
+
+}
 
 .btn {
     display: inline-flex;
@@ -126,4 +140,17 @@
         padding: 0;
     }
 
+}
+
+.wrapper3 {
+    font-size: 25px;
+    text-align: justify;
+    padding: 20px;
+    width: 600px;
+
+    .list {
+        .item {
+            font-weight: 700;
+        }
+    }
 }

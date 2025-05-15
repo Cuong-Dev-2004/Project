@@ -9,14 +9,14 @@ function HeaderChildCenter() {
             <div className={styles.headerChildCenter_HeaderMain}>
                 <div className={styles.headerChildCenter_left}>
                     <ul>
-                        <img src="http://www.langgom.vn/upload/hinhanh/logo-langgom-1632.png" alt="" />
+                        <img src="https://i.pinimg.com/736x/78/2b/2d/782b2dbdfc4535a9c0671c876d9e29ca.jpg" alt="" />
                     </ul>
                 </div>
                 <div className={styles.headerChildCenter_Center}>
                     <div className={styles.headerChildCenter_Center_child}>
                         <ul>
                             <li><i className='bx bxs-check-circle'></i></li>
-                            <li className={styles.headerChildCenter_Center_child_list}>Docx Chất Lượng</li>
+                            <li className={styles.headerChildCenter_Center_child_list}>Hình Anh </li>
                             <li >Đảm Bảo Chất Lượng và Hiệu Suất</li>
                         </ul>
                     </div>
@@ -31,7 +31,7 @@ function HeaderChildCenter() {
                     <div className={styles.headerChildCenter_Center_child}>
                         <ul>
                             <li><i class='bx bxs-data'></i></li>
-                            <li className={styles.headerChildCenter_Center_child_list}>giá Cả Hợp Lý</li>
+                            <li className={styles.headerChildCenter_Center_child_list}>Giá Cả Hợp Lý</li>
                             <li>Sản Phẩm Gía rẻ chất lượng</li>
                         </ul>
                     </div>

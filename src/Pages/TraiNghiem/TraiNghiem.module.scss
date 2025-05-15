@@ -1,0 +1,65 @@
+.ceramictour {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.villagelist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    /* Giới hạn chiều cao để chỉ hiện 4 dòng */
+    max-height: calc((180px + 10px + 1.2em + 5px + 20px) * 4);
+    overflow-y: auto;
+    cursor: pointer;
+}
+
+
+.villagecard {
+    flex: 1 1 200px;
+    max-width: 300px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.villageimage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.villageinfo {
+    padding: 10px;
+}
+
+.villagename {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.villagelocation {
+    color: #666;
+    margin: 5px 0 0;
+}
+
+
+.btnview {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+.btnview:hover {
+    background-color: #e64a19;
+}
