@@ -16,7 +16,7 @@ function HeaderChildCenter() {
                     <div className={styles.headerChildCenter_Center_child}>
                         <ul>
                             <li><i className='bx bxs-check-circle'></i></li>
-                            <li className={styles.headerChildCenter_Center_child_list}>Hình Anh </li>
+                            <li className={styles.headerChildCenter_Center_child_list}>Dịch Vụ</li>
                             <li >Đảm Bảo Chất Lượng và Hiệu Suất</li>
                         </ul>
                     </div>

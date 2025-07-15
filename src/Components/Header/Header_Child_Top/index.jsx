@@ -15,9 +15,9 @@ function HeaderChildTop() {
     return (
         <div className={styles.headerChildTop}>
             <ul className={styles.headerChildTop_left}>
-                <li><a href="#">Cửa hàng</a></li>
-                <li><a href="#">Liên hệ: 0908598850</a></li>
+                <li><a href="#">Dịch Vụ</a></li>
                 <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Hỏi Đáp</a></li>
                 <li><a href="#">Hỗ trợ</a></li>
             </ul>
             <ul className={styles.headerChildTop_right}>
