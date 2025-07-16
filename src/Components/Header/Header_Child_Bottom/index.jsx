@@ -17,7 +17,9 @@ function HeaderChildBottom() {
                             <li to="/" className={styles.item_Menu_Left}>Theo dõi sức khỏe</li>
                         </Link>
 
-                        <li to="/" className={styles.item_Menu_Left}>Bác sĩ ảo</li>
+                        <Link to="/OpenAi">
+                            <li to="/" className={styles.item_Menu_Left}>Bác sĩ ảo</li>
+                        </Link>
                         <li to="/" className={styles.item_Menu_Left}>Liên Kết Nhà Thuốc</li>
 
 
