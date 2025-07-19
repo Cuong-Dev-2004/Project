@@ -1,0 +1,13 @@
+.header {
+    margin: 0;
+    background-color: white;
+    min-height: 200px;
+    max-height: 250px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    >* {
+        width: 100%;
+    }
+}

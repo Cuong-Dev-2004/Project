@@ -1,0 +1,63 @@
+.OpenAi {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+
+    &_container {
+        flex: 1;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 20px;
+        max-height: 70vh;
+
+        .message {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        .user {
+            text-align: right;
+            color: #007bff;
+        }
+
+        .bot {
+            text-align: left;
+            color: #28a745;
+        }
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        input[type="text"] {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: #10a37f;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+
+            &:hover {
+                background-color: #0d8366;
+            }
+        }
+    }
+}
