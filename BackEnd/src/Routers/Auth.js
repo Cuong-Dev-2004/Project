@@ -7,7 +7,7 @@ router.post("/register", AuthController.RegisterUser);
 router.post("/Login", AuthController.LoginUser);
 // Sign Out
 router.post("/logout", AuthController.LogOutUser);
-// RefreshToken
+// RefreshToken User
 router.post("/RefreshToken", AuthController.RefreshToken);
 
 module.exports = router;

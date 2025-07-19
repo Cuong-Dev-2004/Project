@@ -12,8 +12,8 @@ const app = express();
 
 dotenv.config();
 mongoose.connect(process.env.MONGODB_URL)
-    .then(() => console.log(' Kết nối MongoDB thành công!'))
-    .catch(err => console.error(' Lỗi kết nối MongoDB:', err));
+    .then(() => console.log('Kết nối MongoDB thành công'))
+    .catch(err => console.error('Lỗi kết nối MongoDB:', err));
 
 
 app.use(morgan('combined'));
@@ -24,6 +24,6 @@ console.log("✅ API_KEY =", process.env.API_KEY);
 app.use('/v1/auth', AuthRouter)
 app.use('/v1/ServerAi', ServerAi)
 app.get('/', (req, res) => {
-    res.send('hello, world!')
+    res.send('Hello, world!')
 })
 app.listen(port, () => console.log("App Listening " + port));
